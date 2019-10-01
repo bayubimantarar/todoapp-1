@@ -10,6 +10,16 @@
     crossorigin="anonymous"
   />
   <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous"
+  />
+  <link
     rel="stylesheet"
     href="custom.css"
   />
@@ -21,19 +31,23 @@
       <div class="card shadow p-3 mb-5 bg-white rounded">
         <div class="card-body">
           <h4 class="card-title">
-            Add New Todo
+            Todo Application
           </h4>
           <form id="submit-form" action="#0">
             <div class="input-group mb-3">
               <input type="text" class="form-control" placeholder="New todo" id="new-todo">
               <div class="input-group-append">
-                <button class="btn btn-outline-primary" type="submit" id="submit-btn">Add</button>
+                <button class="btn btn-outline-primary" type="submit" id="submit-btn">
+                  <i class="fa fa-plus"></i> Add
+                </button>
               </div>
             </div>
           </form>
           <div class="d-flex justify-content-between align-items-center mb-2">
-            <h5>Todo List</h5>
-            <button type="submit" class="btn btn-sm btn-outline-danger clear-btn">Clear Todos</button>
+            <h5><i class="fa fa-list-ol"></i> Todo List</h5>
+            <button type="submit" class="btn btn-sm btn-outline-danger clear-btn">
+              <i class="fa fa-times"></i> Clear Todos
+            </button>
           </div>
           <hr>
           <ul class="list-group" id="todo-list"></ul>
