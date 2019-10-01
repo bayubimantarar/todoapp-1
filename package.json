@@ -1,0 +1,23 @@
+{
+  "name": "todoapp",
+  "version": "1.0.0",
+  "description": "Todo Application using html and vanilla javascript",
+  "main": "index.js",
+  "dependencies": {
+    "jasmine": "^3.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jasmine todo/appTest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bayubimantarar/todoapp-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bayubimantarar/todoapp-1/issues"
+  },
+  "homepage": "https://github.com/bayubimantarar/todoapp-1#readme"
+}
